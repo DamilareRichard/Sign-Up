@@ -10,7 +10,6 @@ body{
 	margin: 10px;
 	padding:10px;
 	background:#FFD5B3;
-	
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
@@ -33,6 +32,7 @@ body{
 	padding: 40px; 
 	width: 300px;
 	height: 400px;
+
 }
 h1{
 	margin: 0 0 20px 0;
@@ -86,7 +86,7 @@ input[type="submit"]:focus{
 	left: 0;
 	margin-left: 300px;
 	box-sizing: border-box;
-	padding: 60px;
+	padding: 40px;
 	width: 300px;
 	height: 400px;
 	background-image: url(view.jpg);
@@ -151,7 +151,7 @@ button.social{
 	color: #FF2A1A;
 }
 
-@media screen and (min-width:330px) and (max-width: 700px){
+@media screen and (min-width:300px) and (max-width: 700px){
 
 
 	body{
@@ -163,11 +163,11 @@ button.social{
 	div	{
 		margin: 0;
 		padding: 0;
-		font-size: 1.5rem;
+		font-size: 1rem;
 
 }
 	.login-box{
-	width: 250px;
+	width: 190px;
 	top: 120px;
 	left: 8px;
 	margin: 5px;
@@ -177,25 +177,26 @@ button.social{
 .left-side{
 	margin: 23px;
 	padding: 18px;
-	font-size: 1rem;
+	font-size: .5rem;
 }
 h1{
-	font-size: 20px;
+	font-size: 16px;
 }
 .right-box{
-	margin-left: 250px;
+	margin-left: 190px;
+	margin-right: 100px;
 	box-sizing: border-box;
-	padding: 60px;
-	width: 300px;
+	padding: 40px;
+	width: 175px;
 	height: 400px;
 }
 input[type="text"], input[type="password"]{
 	box-sizing: border-box;
-	margin-bottom: 20px;
-	padding: 4px;
-	width: 200px;
-	height: 32px;
-	font-size: 20px;
+	margin-bottom: 25px;
+	padding: 5px;
+	width: 140px;
+	height: 35px;
+	font-size: 12px;
 }
 input[type="submit"]{
 	margin-bottom: 35px;
@@ -207,19 +208,23 @@ input[type="submit"]{
 .or{
 	width: 40px;
 	height: 40px;
-	top: 175px;
-	left: 230px;
+	top: 185px;
+	left: 170px;
 }
 .right-box .signinwith{
-	text-align: center;
-	margin-bottom: 28px;
-	font-size: 22px;
+	text-align:center;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 button.social{
 	margin-bottom: 20px;
-	width:200px;
+	width: 100px;
 	height:35px;
+	padding: 0
+	margin-right: 100px;
+	margin-top: 30px;
 }
 
 }
