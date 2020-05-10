@@ -81,7 +81,7 @@ input[type="submit"]:focus{
 }
 
 .right-box{
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	margin-left: 300px;
@@ -167,7 +167,7 @@ button.social{
 
 }
 	.login-box{
-	width: 190px;
+	width: 170px;
 	top: 120px;
 	left: 8px;
 	margin: 5px;
@@ -178,16 +178,18 @@ button.social{
 	margin: 23px;
 	padding: 18px;
 	font-size: .5rem;
+	margin-left: 0px;
+
 }
 h1{
 	font-size: 16px;
 }
 .right-box{
-	margin-left: 190px;
+	margin-left: 170px;
 	margin-right: 100px;
 	box-sizing: border-box;
 	padding: 40px;
-	width: 175px;
+	width: 160px;
 	height: 400px;
 }
 input[type="text"], input[type="password"]{
@@ -209,12 +211,12 @@ input[type="submit"]{
 	width: 40px;
 	height: 40px;
 	top: 185px;
-	left: 170px;
+	left: 150px;
 }
 .right-box .signinwith{
 	text-align:center;
 	margin-bottom: 20px;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 600;
 }
 
